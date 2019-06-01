@@ -14,8 +14,8 @@
 
 ### Feature 파셀과 함께 만들고 싶은것
 
-- React
-- ES6 with Babel
+- React  :white_check_mark:
+- ES6 with Babel :white_check_mark:
 - SCSS
 - CSS Modules
 - Typography.js
@@ -46,7 +46,7 @@
 - babel-preset 설치
 
   ```bash
-  $> yarn add  babel-preset-env babel-preset-react --dev
+  $> yarn add babel-preset-env babel-preset-react --dev
   ```
 
 
@@ -72,3 +72,4 @@
   
   $> yarn start
   ```
+
