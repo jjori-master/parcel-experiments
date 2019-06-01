@@ -1,0 +1,8 @@
+{
+  "name": "parcel-experiments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jjori-master/parcel-experiments.git",
+  "author": "jjori.master <jjori.master@gmail.com>",
+  "license": "MIT"
+}
