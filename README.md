@@ -61,4 +61,14 @@
   ✨  Built in 1.11s.
   ```
 
+- package.json 실행 스크립트 추가 및 실행
+
+  ```javascript
+  ...
+  scripts: {
+  	start: parcel index.html;
+  }
+  ...
   
+  $> yarn start
+  ```
