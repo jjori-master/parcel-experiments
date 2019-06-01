@@ -49,4 +49,16 @@
   $> yarn add  babel-preset-env babel-preset-react --dev
   ```
 
+
+
+### Parcel 실행
+
+- parcel 실행
+
+  ```bash
+  $> parcel index.html
+  Server running at http://localhost:1234 
+  ✨  Built in 1.11s.
+  ```
+
   
