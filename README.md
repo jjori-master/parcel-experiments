@@ -48,6 +48,14 @@
   ```bash
   $> yarn add babel-preset-env babel-preset-react --dev
   ```
+  
+- post css modules 설치
+
+  ```bash
+  $> yarn add postcss-modules
+  ```
+
+  
 
 
 
