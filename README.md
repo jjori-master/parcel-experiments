@@ -16,8 +16,8 @@
 
 - React  :white_check_mark:
 - ES6 with Babel :white_check_mark:
-- SCSS
-- CSS Modules
+- SCSS :white_check_mark:
+- CSS Modules :white_check_mark:
 - Typography.js
 - Build for production
 
@@ -80,4 +80,73 @@
   
   $> yarn start
   ```
+
+
+
+### scss지원을 위한 플러그인 설치 및 .postcssrc 설정
+
+-  node에서 sass를 지원하기 위해 node-sass를 설치
+
+  ```bash
+  $> yarn global add node-sass
+  ```
+
+- auto prefixer를 지원하기 위한 autoprefixer 설치
+
+  > 브라우저별로 따로 놀던 CSS3의 속성을 잡아주기 위해서 사용되기 시작된 프리픽스는 마크업시 css의 Class앞에 `-moz-`, `-webkit-`, `-o-`, `-ms-`라는 각 브라우저에서 판독이 가능한 접두어를 붙여서 해당 브라우저에서 인식할 수 있게 하는 것 -블로그 펌-
+  >
+  > 그걸 자동으로 붙여 주는 것
+
+  ```bash
+  $> yarn add autoprefixer
+  ```
+
+- autoprefixer 설정을 .postcssrc에 적용
+
+  ```bash
+  {
+      "modules": true,
+      "plugins": {
+          "autoprefixer": {
+              "browsers": [
+                  "> 1%", // 글로벌 마켓 쉐어 시장에 1%이상인 브라우저를 지원하겠다
+                  "Last 2 versions", // 해당 브라우저의 최근 두버전을 지원할거야
+                  "IE 10", // 그리고 IE 10버전을 지원할 거야 (망해라 IE!!)
+              ]
+          }
+      }
+  }
+  ```
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
